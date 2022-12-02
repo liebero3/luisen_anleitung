@@ -1,12 +1,6 @@
 ---
 title: "Anleitungen zu den digitalen Plattformen am Luisen"
 date: "2022-09-05"
-tags:
-- anleitung
-- keylcoak
-- nextcloud
-- logineo
-- login
 ---
 # Initialer Login und Verbindung der Apps
 
