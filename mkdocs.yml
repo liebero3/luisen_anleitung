@@ -2,6 +2,7 @@ site_name: Luisen-Gymnasium Anleitungen
 
 theme:
     name: 'material'
+    font: false
     palette:
 
     # Light mode
