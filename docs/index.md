@@ -1,5 +1,5 @@
 ---
-title: "Anleitungen zu den digitalen Plattformen am Luisen"
+title: "Initialer Login und Verbindung der Apps"
 date: "2022-09-05"
 ---
 # Initialer Login und Verbindung der Apps
