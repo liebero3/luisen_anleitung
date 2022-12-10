@@ -23,7 +23,12 @@ Um eine Datei oder einen Ordner zu teilen muss zuerst auf das "Teilen"-Symbol ge
 ![zz-img-Anleitungen-nextcloud221130.png](zz-img-Anleitungen-nextcloud221130.png)
 
 Nun öffnet sich das "Teilen"-Menü:
-![zz-img-Anleitungen-nextcloud221130-1.png](zz-img-Anleitungen-nextcloud221130-1.png)
+
+<figure markdown>
+  ![zz-img-Anleitungen-nextcloud221130-1.png](zz-img-Anleitungen-nextcloud221130-1.png){ loading=lazy style="margin:auto;width:60%" }
+  <!-- <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption> -->
+</figure>
+
 Möchte man eine Datei (oder Ordner) jemandem nochmals kurz zeigen, mit dem diese (dieser) bereits geteilt ist, so kann man einfach bei "Interner Link" auf das "Zwischenablage"-Symbol klicken und diesen Link versenden. Ist dies aber noch nicht geschehen, muss man sich entscheiden, auf welche Art man die Datei teilen möchte, "innerhalb der Schulgemeinschaft", was deutlich speziellere Rechteeinstellungen erlaubt, oder per Link an Externe und damit jeden, der den Link erhält.
 
 #### Teilen innerhalb der Schulgemeinschaft
@@ -33,21 +38,40 @@ Zum Teilen innerhalb der Schulgemeinschaft gibt man in das Suchfeld einen Teil d
 >**Wichtig:**
 >Bei Benutzung der App funktioniert die Autovervollständigung nicht, dort muss der Suchbegriff abgeschickt werden ("Enter"), damit passende Vorschläge angezeigt werden!
 
-![zz-img-Anleitungen-nextcloud221130-2.png](zz-img-Anleitungen-nextcloud221130-2.png)
+<figure markdown>
+  ![zz-img-Anleitungen-nextcloud221130-2.png](zz-img-Anleitungen-nextcloud221130-2.png){ loading=lazy style="margin:auto;width:60%" }
+  <!-- <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption> -->
+</figure>
 
 Im Bild ist erkennbar wie Nextcloud anzeigt, ob der Vorschlag eine Person (dann ist nichts am rechten Rand sichtbar und man sieht in grau die (Pseudo-)-Mailadresse unter dem Namen), eine Gruppe (Das Symbol mit den zwei Personen) oder eine Talk-Unterhaltung (die Sprechblase) ist.
 
-![zz-img-Anleitungen-nextcloud221130-3.png](zz-img-Anleitungen-nextcloud221130-3.png)
+<figure markdown>
+  ![zz-img-Anleitungen-nextcloud221130-3.png](zz-img-Anleitungen-nextcloud221130-3.png){ loading=lazy style="margin:auto;width:60%" }
+  <!-- <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption> -->
+</figure>
+
+
 Wurde eine Datei (oder Ordner) erfolgreich innerhalb der Schulgemeinschaft geteilt, so sieht man im Anschluss (meistens erst nach einem Reload der Seite), dass neben dem "Teilen"-Symbol nun ein "Geteilt" steht.
 
 ![zz-img-Anleitungen-nextcloud221130-4.png](zz-img-Anleitungen-nextcloud221130-4.png)
 
 #### Teilen mit Externen
 Möchte man eine Datei (oder Ordner) per Link teilen, dies ist notwendig, wenn diese auch Leute außerhalb der Schulgemeinschaft sehen/bearbeiten/erstellen können sollen, dann muss man einen neuen "Freigabe-Link" erstellen.
-![zz-img-Anleitungen-nextcloud221130-5.png](zz-img-Anleitungen-nextcloud221130-5.png)
+
+<figure markdown>
+  ![zz-img-Anleitungen-nextcloud221130-5.png](zz-img-Anleitungen-nextcloud221130-5.png){ loading=lazy }
+  <!-- <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption> -->
+</figure>
+
+
 
 Nachdem dieser erstellt wurde kann man über das "drei Punkt"-Symbol neben dem "Zwischenablage"-Symbol einstellen, welche Rechte den Leuten zustehen.
-![zz-img-Anleitungen-nextcloud221130-6.png](zz-img-Anleitungen-nextcloud221130-6.png)
+
+<figure markdown>
+  ![zz-img-Anleitungen-nextcloud221130-6.png](zz-img-Anleitungen-nextcloud221130-6.png){ loading=lazy style="margin:auto;width:60%" }
+  <!-- <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption> -->
+</figure>
+
 **Rechte:**
 
 - **Schreibgeschützt:** Datei oder Ordner kann nicht geändert werden, im Falle eines Ordners können auch keine neuen Dateien erstellt werden.
@@ -61,6 +85,7 @@ Nachdem dieser erstellt wurde kann man über das "drei Punkt"-Symbol neben dem "
 - **Weiteren Link hinzufügen:** Fügt einen weiteren Link hinzu, dem man dann andere Rechte mitgeben kann.
 
 Wurde eine Datei (oder Ordner) erfolgreich innerhalb über eine Link-Freigabe geteilt, so sieht man im Anschluss (meistens erst nach einem Reload der Seite), dass anstatt des "Teilen"-Symbols nun ein "Link"-Symbol erscheint und rechts davon nun ein "Geteilt" steht.
+
 ![zz-img-Anleitungen-nextcloud221130-7.png](zz-img-Anleitungen-nextcloud221130-7.png)
 
 ### (kollaboratives) arbeiten mit Office-Programmen

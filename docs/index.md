@@ -7,8 +7,17 @@ date: "2022-09-05"
 ## Einleitung
 
 Am Luisen nutzen wir eine IAM (Identity and Access Management) Software, damit wir uns nicht in jeder Plattform einzeln anmelden müssen. Momentan sieht die Struktur wie folgt aus:
+<!-- <figure markdown>
+  ![zz-img-index221130.png](zz-img-index221130.png){ loading=lazy style="margin:auto;width:80%" }
+  <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption>
+</figure> -->
 
-![zz-img-index221130.png](zz-img-index221130.png)
+<figure markdown>
+  ![zz-img-index221130.png](zz-img-index221130.png){ loading=lazy }
+  <!-- <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption> -->
+</figure>
+
+<!-- ![zz-img-index221130.png](zz-img-index221130.png){ loading=lazy style="margin:auto;width:80%" } -->
 
 >Wenn man sich das erste Mal mit den initialen Zugangsdaten einloggt, ist es prinzipiell egal, über welche der drei Plattformen man das tut, wichtig ist nur, dass man sich das dann selbst neu vergebene Passwort merkt.
 
@@ -26,11 +35,11 @@ Die Anleitungen zu den einzelnen Plattformen findest du hier:
 ## Initialer Login
 Egal für welche der drei Plattformen du dich entschieden hast (bitte einfach hier in der Anleitung die gewünschte Plattform auswählen und dort nachlesen, wie der Login zu geschehen hat), erreichst du den folgenden Login Screen:
 
-![zz-img-index221130-1.png](zz-img-index221130-1.png)
+![zz-img-index221130-1.png](zz-img-index221130-1.png){ loading=lazy }
 
 Hier gibst du die dir mitgeteilten Login Daten ein. Sollte dies auf analogem Weg geschehen sein, so gilt für das System des Passworts folgendes (da es manchmal nicht eindeutig erkennbar ist):
 
-![zz-img-index221130-2.png](zz-img-index221130-2.png)
+![zz-img-index221130-2.png](zz-img-index221130-2.png){ loading=lazy }
 Sollte es digital übermittelt worden sein, bietet es sich an, die Daten einfach per copy & paste einzufügen, dann sind Fehler beim Abschreiben ausgeschlossen.
 
 Nach erfolgreicher Eingabe der Login Daten wirst du aufgefordert, dir ein neues Passwort (zweimal) zu geben, anschließend bist du eingeloggt.
@@ -41,7 +50,7 @@ Im folgenden wird der Login per Browser und die Einrichtung der App beschrieben.
 ### Login im Browser
 Gehe bitte zur URL [webuntis.luisen-gymnasium.de](http://webuntis.luisen-gymnasium.de) (dies ist nur eine Weiterleitung auf die tatsächliche URL [https://ajax.webuntis.com/WebUntis/?school=luisen-gym-duesseldorf](https://ajax.webuntis.com/WebUntis/?school=luisen-gym-duesseldorf.md).
 
-![zz-img-index221130-3.png](zz-img-index221130-3.png)
+![zz-img-index221130-3.png](zz-img-index221130-3.png){ loading=lazy }
 
 Dort klickst du auf den **keycloak** Button und logst dich mit deinen Zugangsdaten ein. 
 
@@ -57,11 +66,11 @@ Android: [webuntis](https://play.google.com/store/apps/details?id=com.grupet.web
 
 Um die App einzurichten musst du (mehr oder weniger) zwingend den Login mit QR-Code wählen. Dafür logst du dich wie oben erklärt über den Browser ein und klickst anschließend unten links auf deinen Benutzernamen. 
 
-![zz-img-index221130-4.png](zz-img-index221130-4.png)
+![zz-img-index221130-4.png](zz-img-index221130-4.png){ loading=lazy }
 
 Anschließend gehst du oben auf **Freigaben** und dann auf **Anzeigen**.
 
-![zz-img-index221130-5.png](zz-img-index221130-5.png)
+![zz-img-index221130-5.png](zz-img-index221130-5.png){ loading=lazy }
 
 Den dann angezeigten QR-Code musst du mit der Webuntis-App einscannen und die App ist verbunden.
 
@@ -73,7 +82,7 @@ Gehe bitte zur URL [lms.luisen-gymnasium.de](http://lms.luisen-gymnasium.de) (di
 
 Dort klickst du auf den **keycloak** Button und logst dich mit deinen Zugangsdaten ein. 
 
-![zz-img-index221130-6.png](zz-img-index221130-6.png)
+![zz-img-index221130-6.png](zz-img-index221130-6.png){ loading=lazy }
 
 >**Wichtig:**
 >Es sind 2 Spezialfälle zu beachten:
@@ -97,12 +106,12 @@ Android: [Moodle](https://play.google.com/store/apps/details?id=com.moodle.moodl
 
 Um die App mit dem Account zu verbinden, musst du dich im Browser wie oben beschrieben einloggen. Anschließend navigierst du oben rechts auf den Accountbereich und wählst dort **Profil**:
 
-![zz-img-index221130-7.png](zz-img-index221130-7.png)
+![zz-img-index221130-7.png](zz-img-index221130-7.png){ loading=lazy }
 
 
 >Im Profil befindet sich ganz unten der Bereich **Mobile App**, dort klickst du auf **QR-Code anzeigen** und scannst den erscheinenden QR-Code nun **MIT DER MOODLE-APP** ein.
 
-![moodle-app.png](moodle-app.png)
+![moodle-app.png](moodle-app.png){ loading=lazy }
 
 In der App selbst ist auch nochmal eine kleine Erläuterung zum Vorgehen vorhanden.
 

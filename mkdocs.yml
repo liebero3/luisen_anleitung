@@ -3,13 +3,16 @@ site_name: Luisen-Gymnasium Anleitungen
 theme:
     name: 'material'
     language: de
-    # logo: assets/logo.png
+    logo: images/logo.jpg
     favicon: images/favicon.png
     font: false
     features:
       - navigation.instant
       - navigation.tracking
-      # - navigation.tabs
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.sections
+      - navigation.top
     palette:
 
     # Light mode
@@ -49,6 +52,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - attr_list
+  - md_in_html
 
   - toc:
       permalink: true
@@ -63,7 +68,7 @@ extra_css: [extra.css]
 
 plugins:
   - search
-  - mermaid2
+  # - mermaid2
 
 extra_javascript:
   - javascripts/mathjax.js
