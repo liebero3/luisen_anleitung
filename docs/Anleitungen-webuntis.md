@@ -1,8 +1,2 @@
----
-title: "Webuntis"
-date: "2022-09-06"
-tags:
-- webuntis
-- anleitung
----
+# Webuntis
 Solltest du dich noch nie in einer der Plattformen eingeloggt haben oder Probleme beim Einloggen haben, so lies bitte erst die [Anleitung zum Login](index.md).

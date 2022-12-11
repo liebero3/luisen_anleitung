@@ -1,20 +1,30 @@
 site_name: Digitale Plattformen
 
-theme:
-    name: 'material'
-    language: de
-    logo: images/logo.jpg
-    favicon: images/favicon.png
-    font: false
-    features:
-      - navigation.instant
-      - navigation.tracking
-      - navigation.tabs
-      - navigation.tabs.sticky
-      - navigation.sections
-      - navigation.top
-    palette:
+nav:
+  - "Home": "index.md"
+  - "Keycloak": "Anleitungen-initial_login.md"
+  - "Webuntis": "Anleitungen-webuntis.md"
+  - "Moodle": "Anleitungen-moodle.md"
+  - "Nextcloud": "Anleitungen-nextcloud.md"
+  - "Beamer/Dongle": "Anleitungen-beamer.md"
+  - "Hilfe": "faq.md"
+  - "zurück zur Homepage": "https://luisen-gymnasium.de"
 
+
+theme:
+  name: 'material'
+  language: de
+  logo: images/logo.svg
+  favicon: images/favicon.png
+  font: false
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+  palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
