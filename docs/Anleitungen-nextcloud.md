@@ -72,7 +72,7 @@ Um dies bei der Erstellung von Dokumenten erreichen zu können, muss es möglich
 
 Collabora Office ist grundsätzlich das gleiche wie Microsoft Office 365 oder Google Workspace, nämlich eine Office Suite, die im Browser ausführbar ist. Natürlich ist es von der Performance her nicht identisch, aber es ist durchaus eine nutzbare Alternative, wenn man sich darauf einlässt.
 
-![zz-img-Anleitungen-nextcloud221130-8.png](zz-img-Anleitungen-nextcloud221130-8.png) @TODO
+<figure markdown> ![zz-img-Anleitungen-nextcloud221130-8.png](zz-img-Anleitungen-nextcloud221130-8.png) @TODO
 
 #### Einfache Textdatei (mit Markdown)
 
@@ -104,11 +104,11 @@ Hierfür geht man folgendermaßen vor:
 
 Im Browser in der Kalenderanwendung ganz unten auf das "+" bei "Termine" klicken.
 
-![](20230202183542.png){loading=lazy style="margin:auto;width:60%"}
+<figure markdown> ![](20230202183542.png){loading=lazy style="margin:auto;width:60%"}
 
 Anschließend kommt man zu folgender Maske:
 
-![](20230202184338.png){loading=lazy style="margin:auto;width:60%"}
+<figure markdown> ![](20230202184338.png){loading=lazy style="margin:auto;width:60%"}
 
 Die einzelnen Felder haben folgende Bedeutung:
 
@@ -123,17 +123,17 @@ Die einzelnen Felder haben folgende Bedeutung:
 
 Die restlichen Felder sind für den Elternsprechtag nicht nötig. Mit den Einstellungen aus dem obigen Bild werden nun **jeden** Freitag von 14:30 Uhr bis 18:30 Uhr zehnminütige Termine ohne Pausen angelegt.
 
-![](20230202185519.png){loading=lazy"}
+<figure markdown> ![](20230202185519.png){loading=lazy"}
 
 Damit man nun einen Termin buchen kann, muss man einen Tag auswählen, der als **Zeitbereich** ausgewählt wurde. Deswegen der Hinweis darauf, dass es sinnvoll ist unter **Beschreibung** eine Bedienungsanleitung zu formulieren.
 
 Nachdem man einen Tag mit **Zeitbereich** ausgewählt hat, sieht die Maske dann folgendermaßen aus:
 
-![](20230202204833.png){loading=lazy%20style="margin:auto;width:60%"})
+<figure markdown> ![](20230202204833.png){loading=lazy%20style="margin:auto;width:60%"})
 
 Nach dem ein Termin ausgewählt wurde, kommt die folgende Maske:
 
-![](20230202205924.png){loading=lazy%20style="margin:auto;width:60%"})
+<figure markdown> ![](20230202205924.png){loading=lazy%20style="margin:auto;width:60%"})
 
 Hier ist es zwingend erforderlich, dass eine korrekte Mailadresse angegegeben wird (Wie schon erwähnt: **Bedienungsanleitung**. Man sieht diese, wie im Scrennshot ersichtlich, ja auch noch in der Maske). Es sollte dann auch, wie im Screenshot zu sehen, unter Beschreibung bestensfalls einfach nur der Name des Kindes stehen. 
 
