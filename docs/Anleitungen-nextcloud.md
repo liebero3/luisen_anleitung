@@ -116,7 +116,7 @@ Im Browser in der Kalenderanwendung ganz unten auf das "+" bei "Termine" klicken
 
 Anschließend kommt man zu folgender Maske:
 
-<figure markdown> ![20230202184338.png](20230202184338.png){loading=lazy style="margin:auto;width:60%"} </figure>
+<figure markdown> ![20230202184338.png](20230202184338.png){loading=lazy} </figure>
 
 Die einzelnen Felder haben folgende Bedeutung:
 
