@@ -2,7 +2,7 @@ site_name: Digitale Plattformen
 
 nav:
   - "Home": "index.md"
-  - "Keycloak": "Anleitungen-initial_login.md"
+  - "keycloak": "Anleitungen-initial_login.md"
   - "Webuntis": "Anleitungen-webuntis.md"
   - "Moodle": "Anleitungen-moodle.md"
   - "Nextcloud": "Anleitungen-nextcloud.md"

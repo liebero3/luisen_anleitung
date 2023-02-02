@@ -96,6 +96,51 @@ Im Texteditor von Nextcloud sind aber auch Buttons für die einzelnen Auszeichnu
 
 ### Kalender per CalDAV abonnieren
 
+### Elternsprechtage/Sprechstunden
+
+Es ist sehr leicht möglich mithilfe des Kalenders selbstbuchbare Termine anzubieten.
+
+Hierfür geht man folgendermaßen vor:
+
+Im Browser in der Kalenderanwendung ganz unten auf das "+" bei "Termine" klicken.
+
+![](20230202183542.png){loading=lazy style="margin:auto;width:60%"}
+
+Anschließend kommt man zu folgender Maske:
+
+![](20230202184338.png){loading=lazy style="margin:auto;width:60%"}
+
+Die einzelnen Felder haben folgende Bedeutung:
+
+- **Terminname:** Hier gibt man die Überschrift der Buchungsseite und auch den Namen des automatisch angelegten Termins an
+- **Ort:** selbsterklärend
+- **Beschreibung:** Dieser Text wird auch auf der Buchungsseite erscheinen. Es bietet sich an, hier die "Bedienungsanleitung" zu geben.
+- **Kalender:** Hier kann man angeben, in welchem Kalender der Termin angelegt werden soll. Es ist durchaus möglich, einen speziellen Kalender dafür zu erstellen, es tut aber auch der persönliche.
+- **Sichtbarkeit:** Man kann zwischen öffentlich und privat wählen. Für Sprechtagstermine wäre öffentlich sicher ratsam, für den Elternsprechtag ist könnte man eventuell auch einen privaten Link erstellen, den man anschließend den Eltern schicken müsste.
+- **Dauer:** Hier gibt man an, wie lang ein Termin sein soll. 
+- **Schritte:** Hier gibt man an, alle wie viel Minuten ein neuer Termin der angegebenen Dauer erstellt wird. Gibt man bei beiden die gleiche Zeit an, folgen die Termine nahtlos aufeinander.
+- **Wählen Sie Zeitbereiche...:** Für den Elternsprechtag gibt man den Tag mit Start- und Endzeit an.
+
+Die restlichen Felder sind für den Elternsprechtag nicht nötig. Mit den Einstellungen aus dem obigen Bild werden nun **jeden** Freitag von 14:30 Uhr bis 18:30 Uhr zehnminütige Termine ohne Pausen angelegt.
+
+![](20230202185519.png){loading=lazy"}
+
+Damit man nun einen Termin buchen kann, muss man einen Tag auswählen, der als **Zeitbereich** ausgewählt wurde. Deswegen der Hinweis darauf, dass es sinnvoll ist unter **Beschreibung** eine Bedienungsanleitung zu formulieren.
+
+Nachdem man einen Tag mit **Zeitbereich** ausgewählt hat, sieht die Maske dann folgendermaßen aus:
+
+![](20230202204833.png){loading=lazy%20style="margin:auto;width:60%"})
+
+Nach dem ein Termin ausgewählt wurde, kommt die folgende Maske:
+
+![](20230202205924.png){loading=lazy%20style="margin:auto;width:60%"})
+
+Hier ist es zwingend erforderlich, dass eine korrekte Mailadresse angegegeben wird (Wie schon erwähnt: **Bedienungsanleitung**. Man sieht diese, wie im Scrennshot ersichtlich, ja auch noch in der Maske). Es sollte dann auch, wie im Screenshot zu sehen, unter Beschreibung bestensfalls einfach nur der Name des Kindes stehen. 
+
+Nachdem auf "Buchen" geklickt wurde, wird nun eine Mail an die angegebene Mailadresse geschickt, in der ein Link zur Bestätigung des Termins angegeben ist (Sagte ich schon **Bedienungsanleitung**?). Nachdem der Termin dann bestätigt wurde, wird er automatisch im angegebenen Kalender eingetragen. 
+
+
+
 #### iOS
 
 #### Android
