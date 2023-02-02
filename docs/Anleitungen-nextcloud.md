@@ -98,6 +98,12 @@ Im Texteditor von Nextcloud sind aber auch Buttons für die einzelnen Auszeichnu
 
 ### Kalender per CalDAV abonnieren
 
+#### iOS
+
+#### Android
+
+#### Windows
+
 ### Elternsprechtage/Sprechstunden
 
 Es ist sehr leicht möglich mithilfe des Kalenders selbstbuchbare Termine anzubieten.
@@ -141,12 +147,5 @@ Hier ist es zwingend erforderlich, dass eine korrekte Mailadresse angegegeben wi
 
 Nachdem auf "Buchen" geklickt wurde, wird nun eine Mail an die angegebene Mailadresse geschickt, in der ein Link zur Bestätigung des Termins angegeben ist (Sagte ich schon **Bedienungsanleitung**?). Nachdem der Termin dann bestätigt wurde, wird er automatisch im angegebenen Kalender eingetragen. 
 
-
-
-#### iOS
-
-#### Android
-
-#### Windows
 
 ## Talk
