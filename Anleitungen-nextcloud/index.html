@@ -1,0 +1,1014 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Anleitungen-moodle/">
+      
+      
+        <link rel="next" href="../Anleitungen-beamer/">
+      
+      <link rel="icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.10">
+    
+    
+      
+        <title>Nextcloud - Digitale Plattformen</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0d440cfe.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#nextcloud" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href=".." title="Digitale Plattformen" class="md-header__button md-logo" aria-label="Digitale Plattformen" data-md-component="logo">
+      
+  <img src="../images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Digitale Plattformen
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Nextcloud
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Hauptnavigation" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Anleitungen-initial_login/" class="md-tabs__link">
+      keycloak
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Anleitungen-webuntis/" class="md-tabs__link">
+      Webuntis
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Anleitungen-moodle/" class="md-tabs__link">
+      Moodle
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Nextcloud
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Anleitungen-beamer/" class="md-tabs__link">
+      Beamer/Dongle
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../faq/" class="md-tabs__link">
+      Hilfe
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://luisen-gymnasium.de" class="md-tabs__link">
+      zurück zur Homepage
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Digitale Plattformen" class="md-nav__button md-logo" aria-label="Digitale Plattformen" data-md-component="logo">
+      
+  <img src="../images/logo.svg" alt="logo">
+
+    </a>
+    Digitale Plattformen
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Anleitungen-initial_login/" class="md-nav__link">
+        keycloak
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Anleitungen-webuntis/" class="md-nav__link">
+        Webuntis
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Anleitungen-moodle/" class="md-nav__link">
+        Moodle
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Nextcloud
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Nextcloud
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dateien" class="md-nav__link">
+    Dateien
+  </a>
+  
+    <nav class="md-nav" aria-label="Dateien">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dateien-teilen" class="md-nav__link">
+    Dateien teilen
+  </a>
+  
+    <nav class="md-nav" aria-label="Dateien teilen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#teilen-innerhalb-der-schulgemeinschaft" class="md-nav__link">
+    Teilen innerhalb der Schulgemeinschaft
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teilen-mit-externen" class="md-nav__link">
+    Teilen mit Externen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kollaboratives-arbeiten-mit-office-programmen" class="md-nav__link">
+    (kollaboratives) arbeiten mit Office-Programmen
+  </a>
+  
+    <nav class="md-nav" aria-label="(kollaboratives) arbeiten mit Office-Programmen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#collabora-office" class="md-nav__link">
+    Collabora Office
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#einfache-textdatei-mit-markdown" class="md-nav__link">
+    Einfache Textdatei (mit Markdown)
+  </a>
+  
+    <nav class="md-nav" aria-label="Einfache Textdatei (mit Markdown)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#markdown" class="md-nav__link">
+    Markdown
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kalender" class="md-nav__link">
+    Kalender
+  </a>
+  
+    <nav class="md-nav" aria-label="Kalender">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eigenen-kalender-erstellen" class="md-nav__link">
+    Eigenen Kalender erstellen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kalender-per-caldav-abonnieren" class="md-nav__link">
+    Kalender per CalDAV abonnieren
+  </a>
+  
+    <nav class="md-nav" aria-label="Kalender per CalDAV abonnieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ios" class="md-nav__link">
+    iOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#android" class="md-nav__link">
+    Android
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    Windows
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elternsprechtagesprechstunden" class="md-nav__link">
+    Elternsprechtage/Sprechstunden
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#talk" class="md-nav__link">
+    Talk
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Anleitungen-beamer/" class="md-nav__link">
+        Beamer/Dongle
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        Hilfe
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://luisen-gymnasium.de" class="md-nav__link">
+        zurück zur Homepage
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dateien" class="md-nav__link">
+    Dateien
+  </a>
+  
+    <nav class="md-nav" aria-label="Dateien">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dateien-teilen" class="md-nav__link">
+    Dateien teilen
+  </a>
+  
+    <nav class="md-nav" aria-label="Dateien teilen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#teilen-innerhalb-der-schulgemeinschaft" class="md-nav__link">
+    Teilen innerhalb der Schulgemeinschaft
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teilen-mit-externen" class="md-nav__link">
+    Teilen mit Externen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kollaboratives-arbeiten-mit-office-programmen" class="md-nav__link">
+    (kollaboratives) arbeiten mit Office-Programmen
+  </a>
+  
+    <nav class="md-nav" aria-label="(kollaboratives) arbeiten mit Office-Programmen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#collabora-office" class="md-nav__link">
+    Collabora Office
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#einfache-textdatei-mit-markdown" class="md-nav__link">
+    Einfache Textdatei (mit Markdown)
+  </a>
+  
+    <nav class="md-nav" aria-label="Einfache Textdatei (mit Markdown)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#markdown" class="md-nav__link">
+    Markdown
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kalender" class="md-nav__link">
+    Kalender
+  </a>
+  
+    <nav class="md-nav" aria-label="Kalender">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eigenen-kalender-erstellen" class="md-nav__link">
+    Eigenen Kalender erstellen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kalender-per-caldav-abonnieren" class="md-nav__link">
+    Kalender per CalDAV abonnieren
+  </a>
+  
+    <nav class="md-nav" aria-label="Kalender per CalDAV abonnieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ios" class="md-nav__link">
+    iOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#android" class="md-nav__link">
+    Android
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    Windows
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elternsprechtagesprechstunden" class="md-nav__link">
+    Elternsprechtage/Sprechstunden
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#talk" class="md-nav__link">
+    Talk
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="nextcloud">Nextcloud<a class="headerlink" href="#nextcloud" title="Permanent link">&para;</a></h1>
+<p>Solltest du dich noch nie in einer der Plattformen eingeloggt haben oder Probleme beim Einloggen haben, so lies bitte erst die <a href="../">Anleitung zum Login</a>.</p>
+<h2 id="dateien">Dateien<a class="headerlink" href="#dateien" title="Permanent link">&para;</a></h2>
+<p>Die Dateienapp ist das Herzstück von Nextcloud, da das gesamte Projekt ursprünglich als Cloudspeicher konzipiert wurde. Um als Alternative zu MS365, Google Workspace und ähnlichem bestehen zu können, wurden später die anderen "Apps" hinzugefügt.</p>
+<h3 id="dateien-teilen">Dateien teilen<a class="headerlink" href="#dateien-teilen" title="Permanent link">&para;</a></h3>
+<p>Man kann Dateien und Ordner einzelnen Personen, Gruppen von Personen oder ganz öffentlich jedem zur Verfügung stellen.</p>
+<p>Um eine Datei oder einen Ordner zu teilen muss zuerst auf das "Teilen"-Symbol geklickt werden. <img alt="zz-img-Anleitungen-nextcloud221130.png" src="../zz-img-Anleitungen-nextcloud221130.png" /></p>
+<p>Nun öffnet sich das "Teilen"-Menü:</p>
+<figure>
+<p><img alt="zz-img-Anleitungen-nextcloud221130-1.png" loading="lazy" src="../zz-img-Anleitungen-nextcloud221130-1.png" style="margin:auto;width:60%" /> <!-- <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption> --> </p>
+</figure>
+<p>Möchte man eine Datei (oder Ordner) jemandem nochmals kurz zeigen, mit dem diese (dieser) bereits geteilt ist, so kann man einfach bei "Interner Link" auf das "Zwischenablage"-Symbol klicken und diesen Link versenden. Ist dies aber noch nicht geschehen, muss man sich entscheiden, auf welche Art man die Datei teilen möchte, "innerhalb der Schulgemeinschaft", was deutlich speziellere Rechteeinstellungen erlaubt, oder per Link an Externe und damit jeden, der den Link erhält.</p>
+<h4 id="teilen-innerhalb-der-schulgemeinschaft">Teilen innerhalb der Schulgemeinschaft<a class="headerlink" href="#teilen-innerhalb-der-schulgemeinschaft" title="Permanent link">&para;</a></h4>
+<p>Zum Teilen innerhalb der Schulgemeinschaft gibt man in das Suchfeld einen Teil desjenigen an, mit dem man teilen möchte. Anschließend werden einem relativ schnell per Autovervollständigung mögliche User, Gruppen, Kreise (hier nicht sichtbar) oder Talk-Konversationen angezeigt.</p>
+<blockquote>
+<p><strong>Wichtig:</strong> Bei Benutzung der App funktioniert die Autovervollständigung nicht, dort muss der Suchbegriff abgeschickt werden ("Enter"), damit passende Vorschläge angezeigt werden!</p>
+</blockquote>
+<figure>
+<p><img alt="zz-img-Anleitungen-nextcloud221130-2.png" loading="lazy" src="../zz-img-Anleitungen-nextcloud221130-2.png" style="margin:auto;width:60%" /> <!-- <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption> --> </p>
+</figure>
+<p>Im Bild ist erkennbar wie Nextcloud anzeigt, ob der Vorschlag eine Person (dann ist nichts am rechten Rand sichtbar und man sieht in grau die (Pseudo-)-Mailadresse unter dem Namen), eine Gruppe (Das Symbol mit den zwei Personen) oder eine Talk-Unterhaltung (die Sprechblase) ist.</p>
+<figure>
+<p><img alt="zz-img-Anleitungen-nextcloud221130-3.png" loading="lazy" src="../zz-img-Anleitungen-nextcloud221130-3.png" style="margin:auto;width:60%" /> <!-- <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption> --> </p>
+</figure>
+<p>Wurde eine Datei (oder Ordner) erfolgreich innerhalb der Schulgemeinschaft geteilt, so sieht man im Anschluss (meistens erst nach einem Reload der Seite), dass neben dem "Teilen"-Symbol nun ein "Geteilt" steht.</p>
+<p><img alt="zz-img-Anleitungen-nextcloud221130-4.png" src="../zz-img-Anleitungen-nextcloud221130-4.png" /></p>
+<h4 id="teilen-mit-externen">Teilen mit Externen<a class="headerlink" href="#teilen-mit-externen" title="Permanent link">&para;</a></h4>
+<p>Möchte man eine Datei (oder Ordner) per Link teilen, dies ist notwendig, wenn diese auch Leute außerhalb der Schulgemeinschaft sehen/bearbeiten/erstellen können sollen, dann muss man einen neuen "Freigabe-Link" erstellen.</p>
+<figure>
+<p><img alt="zz-img-Anleitungen-nextcloud221130-5.png" loading="lazy" src="../zz-img-Anleitungen-nextcloud221130-5.png" /> <!-- <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption> --> </p>
+</figure>
+<p>Nachdem dieser erstellt wurde kann man über das "drei Punkt"-Symbol neben dem "Zwischenablage"-Symbol einstellen, welche Rechte den Leuten zustehen.</p>
+<figure>
+<p><img alt="zz-img-Anleitungen-nextcloud221130-6.png" loading="lazy" src="../zz-img-Anleitungen-nextcloud221130-6.png" style="margin:auto;width:60%" /> <!-- <figcaption>Abbildung 1: Digitalstruktur am Luisen-Gymnasium</figcaption> --> </p>
+</figure>
+<p><strong>Rechte:</strong></p>
+<ul>
+<li><strong>Schreibgeschützt:</strong> Datei oder Ordner kann nicht geändert werden, im Falle eines Ordners können auch keine neuen Dateien erstellt werden.</li>
+<li><strong>Hochladen und Bearbeiten erlauben (Nur bei Ordnern):</strong> User dürfen Dateien innerhalb des geteilten Ordners verändern und neue Dateien erstellen.</li>
+<li><strong>Download verbergen:</strong> Entfernt den Button zum Herunterladen von Dateien (ist aber für "versierte" Nutzer trotzdem noch möglich).</li>
+<li><strong>Passwortschutz:</strong> Erfordert nach Eingabe des Links noch eine Passworteingabe um die geteilten Inhalte ansehen zu können.</li>
+<li><strong>Videoüberprüfung:</strong> Für unseren usecase nicht von Interesse.</li>
+<li><strong>Ablaufdatum setzen:</strong> Ermöglicht es ein Datum zu setzen, zu dem der Freigabe-Link automatisch abläuft.</li>
+<li><strong>Notiz an Empfänger:</strong> Für unseren usecase bei der Link-Freigabe nicht von Interesse.</li>
+<li><strong>Freigabe aufheben:</strong> Beendet die Freigabe.</li>
+<li><strong>Weiteren Link hinzufügen:</strong> Fügt einen weiteren Link hinzu, dem man dann andere Rechte mitgeben kann.</li>
+</ul>
+<p>Wurde eine Datei (oder Ordner) erfolgreich innerhalb über eine Link-Freigabe geteilt, so sieht man im Anschluss (meistens erst nach einem Reload der Seite), dass anstatt des "Teilen"-Symbols nun ein "Link"-Symbol erscheint und rechts davon nun ein "Geteilt" steht.</p>
+<figure>
+<p><img alt="zz-img-Anleitungen-nextcloud221130-7.png" src="../zz-img-Anleitungen-nextcloud221130-7.png" /> </p>
+</figure>
+<h3 id="kollaboratives-arbeiten-mit-office-programmen">(kollaboratives) arbeiten mit Office-Programmen<a class="headerlink" href="#kollaboratives-arbeiten-mit-office-programmen" title="Permanent link">&para;</a></h3>
+<p>Innerhalb der Nextcloud lässt sich normal mit den üblichen Office-Formaten "Dokument", "Spreadsheet" und "Präsentation" arbeiten. <strong>Definition:</strong></p>
+<blockquote>
+<p>Kollaboratives Arbeiten meint eine spezielle Form der Zusammenarbeit innerhalb eines Teams. Üblicherweise ist es so, dass Teams gemeinsam auf ein Ziel hinarbeiten, die Team-Mitglieder aber meist einzelne Aufgaben übernehmen und eher nebeneinander als gemeinsam arbeiten.</p>
+</blockquote>
+<p>Um dies bei der Erstellung von Dokumenten erreichen zu können, muss es möglich sein gleichzeitig an unterschiedlichen Stellen innerhalb eines Dokuments arbeiten zu können. Wir verwenden hierfür für ganz einfach Arbeiten den Texteditor von Nextcloud selbst oder Collabora Office.</p>
+<h4 id="collabora-office">Collabora Office<a class="headerlink" href="#collabora-office" title="Permanent link">&para;</a></h4>
+<p>Collabora Office ist grundsätzlich das gleiche wie Microsoft Office 365 oder Google Workspace, nämlich eine Office Suite, die im Browser ausführbar ist. Natürlich ist es von der Performance her nicht identisch, aber es ist durchaus eine nutzbare Alternative, wenn man sich darauf einlässt.</p>
+<figure>
+<p><img alt="zz-img-Anleitungen-nextcloud221130-8.png" src="../zz-img-Anleitungen-nextcloud221130-8.png" /> </p>
+</figure>
+<p>@TODO</p>
+<h4 id="einfache-textdatei-mit-markdown">Einfache Textdatei (mit Markdown)<a class="headerlink" href="#einfache-textdatei-mit-markdown" title="Permanent link">&para;</a></h4>
+<p>In den normalen Textdateien von Nextcloud kann ebenfalls kollaborativ gearbeitet werden. Sobald eine Textdatei mit anderen Usern geteilt wurde</p>
+<h5 id="markdown">Markdown<a class="headerlink" href="#markdown" title="Permanent link">&para;</a></h5>
+<p>Markdown ist eine vereinfachte Auszeichnungssprache, die zum heutigen Stand im universitären Bereich die am meisten zu empfehlende Variante zur Erstellung wissenschaftlicher Arbeiten ist, da sie das Prinzip der Entkoppelung von Style und Content sehr gut umsetzt. Zusätzlich ist das Arbeiten mit Quellen extrem gut. Insbesondere in der Oberstufe sollte es stark empfohlen werden.</p>
+<p>Unter dem folgenden Link ist eine sehr gute Übersicht der Befehle:</p>
+<p><a href="https://elvis.inf.tu-dresden.de/wiki/index.php/Markdown_-_Eine_%C3%9Cbersicht">Markdown Befehle</a></p>
+<p>Im Texteditor von Nextcloud sind aber auch Buttons für die einzelnen Auszeichnungen vorhanden.</p>
+<p>@TODO Erklärung zum workflow beim kollaborativen Arbeiten mit Screenshot</p>
+<h2 id="kalender">Kalender<a class="headerlink" href="#kalender" title="Permanent link">&para;</a></h2>
+<h3 id="eigenen-kalender-erstellen">Eigenen Kalender erstellen<a class="headerlink" href="#eigenen-kalender-erstellen" title="Permanent link">&para;</a></h3>
+<h3 id="kalender-per-caldav-abonnieren">Kalender per CalDAV abonnieren<a class="headerlink" href="#kalender-per-caldav-abonnieren" title="Permanent link">&para;</a></h3>
+<h4 id="ios">iOS<a class="headerlink" href="#ios" title="Permanent link">&para;</a></h4>
+<h4 id="android">Android<a class="headerlink" href="#android" title="Permanent link">&para;</a></h4>
+<h4 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h4>
+<h3 id="elternsprechtagesprechstunden">Elternsprechtage/Sprechstunden<a class="headerlink" href="#elternsprechtagesprechstunden" title="Permanent link">&para;</a></h3>
+<p>Es ist sehr leicht möglich mithilfe des Kalenders selbstbuchbare Termine anzubieten.</p>
+<p>Hierfür geht man folgendermaßen vor:</p>
+<p>Im Browser in der Kalenderanwendung ganz unten auf das "+" bei "Termine" klicken.</p>
+<figure>
+<p><img alt="20230202183542.png" loading="lazy" src="../20230202183542.png" style="margin:auto;width:60%" /> </p>
+</figure>
+<p>Anschließend kommt man zu folgender Maske:</p>
+<figure>
+<p><img alt="20230202184338.png" loading="lazy" src="../20230202184338.png" /> </p>
+</figure>
+<p>Die einzelnen Felder haben folgende Bedeutung:</p>
+<ul>
+<li><strong>Terminname:</strong> Hier gibt man die Überschrift der Buchungsseite und auch den Namen des automatisch angelegten Termins an</li>
+<li><strong>Ort:</strong> selbsterklärend</li>
+<li><strong>Beschreibung:</strong> Dieser Text wird auch auf der Buchungsseite erscheinen. Es bietet sich an, hier die "Bedienungsanleitung" zu geben.</li>
+<li><strong>Kalender:</strong> Hier kann man angeben, in welchem Kalender der Termin angelegt werden soll. Es ist durchaus möglich, einen speziellen Kalender dafür zu erstellen, es tut aber auch der persönliche.</li>
+<li><strong>Sichtbarkeit:</strong> Man kann zwischen öffentlich und privat wählen. Für Sprechtagstermine wäre öffentlich sicher ratsam, für den Elternsprechtag ist könnte man eventuell auch einen privaten Link erstellen, den man anschließend den Eltern schicken müsste.</li>
+<li><strong>Dauer:</strong> Hier gibt man an, wie lang ein Termin sein soll. </li>
+<li><strong>Schritte:</strong> Hier gibt man an, alle wie viel Minuten ein neuer Termin der angegebenen Dauer erstellt wird. Gibt man bei beiden die gleiche Zeit an, folgen die Termine nahtlos aufeinander.</li>
+<li><strong>Wählen Sie Zeitbereiche...:</strong> Für den Elternsprechtag gibt man den Tag mit Start- und Endzeit an.</li>
+</ul>
+<p>Die restlichen Felder sind für den Elternsprechtag nicht nötig. Mit den Einstellungen aus dem obigen Bild werden nun <strong>jeden</strong> Freitag von 14:30 Uhr bis 18:30 Uhr zehnminütige Termine ohne Pausen angelegt.</p>
+<figure>
+<p><img alt="20230202185519.png" loading="lazy&quot;" src="../20230202185519.png" /> </p>
+</figure>
+<p>Damit man nun einen Termin buchen kann, muss man einen Tag auswählen, der als <strong>Zeitbereich</strong> ausgewählt wurde. Deswegen der Hinweis darauf, dass es sinnvoll ist unter <strong>Beschreibung</strong> eine Bedienungsanleitung zu formulieren.</p>
+<p>Nachdem man einen Tag mit <strong>Zeitbereich</strong> ausgewählt hat, sieht die Maske dann folgendermaßen aus:</p>
+<figure>
+<p><img alt="20230202204833.png" loading="lazy%20style" src="../20230202204833.png" /> </p>
+</figure>
+<p>Nach dem ein Termin ausgewählt wurde, kommt die folgende Maske:</p>
+<figure>
+<p><img alt="20230202205924.png" loading="lazy%20style" src="../20230202205924.png" /> </p>
+</figure>
+<p>Hier ist es zwingend erforderlich, dass eine korrekte Mailadresse angegegeben wird (Wie schon erwähnt: <strong>Bedienungsanleitung</strong>. Man sieht diese, wie im Screenshot ersichtlich, ja auch noch in der Maske). Es sollte dann auch, wie im Screenshot zu sehen, unter Beschreibung bestensfalls einfach nur der Name des Kindes stehen. </p>
+<p>Nachdem auf "Buchen" geklickt wurde, wird nun eine Mail an die angegebene Mailadresse geschickt, in der ein Link zur Bestätigung des Termins angegeben ist (Sagte ich schon <strong>Bedienungsanleitung</strong>?). Nachdem der Termin dann bestätigt wurde, wird er automatisch im angegebenen Kalender eingetragen. </p>
+<h2 id="talk">Talk<a class="headerlink" href="#talk" title="Permanent link">&para;</a></h2>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Zurück zum Seitenanfang
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+
+  
+
+
+<h4>Cookie consent</h4>
+<p>Es könnte sein, dass diese Seite Cookies verwendet. Sollte es so sein, hab ich sie übersehen.</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Akzeptieren</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Einstellungen</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.top"], "search": "../assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6df46069.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
