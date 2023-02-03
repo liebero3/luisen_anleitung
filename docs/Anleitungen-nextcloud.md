@@ -143,7 +143,7 @@ Nach dem ein Termin ausgewählt wurde, kommt die folgende Maske:
 
 <figure markdown> ![20230202205924.png](20230202205924.png){loading=lazy%20style="margin:auto;width:60%"} </figure>
 
-Hier ist es zwingend erforderlich, dass eine korrekte Mailadresse angegegeben wird (Wie schon erwähnt: **Bedienungsanleitung**. Man sieht diese, wie im Scrennshot ersichtlich, ja auch noch in der Maske). Es sollte dann auch, wie im Screenshot zu sehen, unter Beschreibung bestensfalls einfach nur der Name des Kindes stehen. 
+Hier ist es zwingend erforderlich, dass eine korrekte Mailadresse angegegeben wird (Wie schon erwähnt: **Bedienungsanleitung**. Man sieht diese, wie im Screenshot ersichtlich, ja auch noch in der Maske). Es sollte dann auch, wie im Screenshot zu sehen, unter Beschreibung bestensfalls einfach nur der Name des Kindes stehen. 
 
 Nachdem auf "Buchen" geklickt wurde, wird nun eine Mail an die angegebene Mailadresse geschickt, in der ein Link zur Bestätigung des Termins angegeben ist (Sagte ich schon **Bedienungsanleitung**?). Nachdem der Termin dann bestätigt wurde, wird er automatisch im angegebenen Kalender eingetragen. 
 
